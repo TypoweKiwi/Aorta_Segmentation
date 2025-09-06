@@ -18,6 +18,14 @@ Used evaluation criteria:
 * Training time  
 * **Dice coefficient**  
 * **Hausdorff Distance (HD95)**
+* 
+## Dataset
+
+The CT dataset used in this project originates from the article:  
+["AVT: Multicenter aortic vessel tree CTA dataset collection with ground truth segmentation masks"](https://www.sciencedirect.com/science/article/pii/S2352340922000130).  
+It is publicly available and can be downloaded from Figshare: [https://doi.org/10.6084/m9.figshare.14806362](https://doi.org/10.6084/m9.figshare.14806362).
+
+A more detailed description and analysis of the dataset can be found in `data_overview.ipynb`.
 
 ## File structure
 
