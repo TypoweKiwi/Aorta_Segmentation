@@ -18,7 +18,7 @@ Used evaluation criteria:
 * Training time  
 * **Dice coefficient**  
 * **Hausdorff Distance (HD95)**
-* 
+
 ## Dataset
 
 The CT dataset used in this project originates from the article:  
@@ -50,10 +50,10 @@ the recommended order for running the project is:
 
 Each notebook in this repository (.ipynb files) was developed and tested in cloud environments such as Kaggle and Google Colab.
 Running the project locally is also possible, but requires manual adjustments of file paths.
-*Kaggle
+* Kaggle
     * Create a private dataset with your data and mount it in the notebook.
     * Ensure correct paths are set for dataset and loader modules.
-*Colab
+* Colab
     * Upload data to Google Drive and mount the drive in the notebook.
     * Ensure correct paths are set for dataset and loader modules.
     * Note: The free version of Colab may not provide enough memory to fully load the dataset through the custom loader. In that case, consider using Colab Pro or running on Kaggle instead.
